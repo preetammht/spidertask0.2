@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+       h1 {font-size: 50px;
+       color: black;
+       text-align: center;
+        text-decoration: underline;}
+       header ul li{font-size: 25px;
+       	display: inline-block;
+       	list-style-type: none;
+       	background: green;
+       	color: white;
+       	border-radius: 5px;
+       	margin: 10px;
+       	padding: 5px;}
+       	header ul li:hover { 
+         background-color: yellow;
+         }
+       body {
+       background-image: url("bac1.jpg");}
+       .center {
+       display: block;
+        margin-left: auto;
+         margin-right: auto;
+        width: 50%;
+               }
+        div{ font-size: 30px; } 
+        .hide {display: none;}      
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1> MY SITE </h1>
+      <ul>
+        <li><a href="main.html">Home</a></li>
+        <li><a href="page2.html">Page2</a></li>	
+      </ul>
+    </header> 
+    <div>
+      <h2> Hello, how are you.This is my site</h2><br>
+      <img src="nittp.jpg" alt="nit trichy" class="center" >
+       <figcaption style="text-align: center;">Nit Trichy</figcaption>
+       <img src="cls.jpeg" alt="cse 2018" class="center" style="width:640px;height:427px;">
+       <figcaption style="text-align: center;">cse a 2018</figcaption>
+    </div>
+    <div >
+       <p> Teams i support-(click to see image)</p>
+        <ul>
+          <li><a data-img="bar-pic" id="bar" href="#">Barcelona</a></li>
+          <li><a data-img="rea-pic" id="rea" href="#">Real Madrid</a></li>
+           <li><a data-img="csk-pic" id="csk" href="#">CSK</a></li>
+        </ul>
+
+    <img class="hide" id="bar-pic" src="bar.jpg">
+    <img class="hide" id="rea-pic" src="real.jpg">
+    <img class="hide" id="csk-pic" src="csk.jpeg" alt="">
+    </div>
+  </body>
+  <script type="text/javascript" src="teamp.js" ></script>
+</html>
+
